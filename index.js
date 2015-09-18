@@ -17,34 +17,34 @@ window.onload = function() {
             tHeadCell.setAttribute('class', 'poolTable');
 
             var Played = tHead.children[0].appendChild(document.createElement("th"));
-            Played.textContent = 'Played';
+            Played.textContent = 'Joué';
 
             var Win = tHead.children[0].appendChild(document.createElement("th"));
-            Win.textContent = 'Win';
+            Win.textContent = 'Victoire';
 
             var Draw = tHead.children[0].appendChild(document.createElement("th"));
-            Draw.textContent = 'Draw';
+            Draw.textContent = 'Nul';
 
             var Lost = tHead.children[0].appendChild(document.createElement("th"));
-            Lost.textContent = 'Lost';
+            Lost.textContent = 'Défaite';
 
             var PointsFor = tHead.children[0].appendChild(document.createElement("th"));
-            PointsFor.textContent = 'Points For';
+            PointsFor.textContent = 'Point marqués';
 
             var PointsAgainst = tHead.children[0].appendChild(document.createElement("th"));
-            PointsAgainst.textContent = 'Points Against';
+            PointsAgainst.textContent = 'Points encaissés';
 
             var PointsDifference = tHead.children[0].appendChild(document.createElement("th"));
-            PointsDifference.textContent = 'Points Difference';
+            PointsDifference.textContent = 'Difference';
 
             var TriesFor = tHead.children[0].appendChild(document.createElement("th"));
-            TriesFor.textContent = 'Tries For';
+            TriesFor.textContent = 'Essais marqués';
 
             var TriesAgainst = tHead.children[0].appendChild(document.createElement("th"));
-            TriesAgainst.textContent = 'Tries Against';
+            TriesAgainst.textContent = 'Essais encaissés';
 
             var BonusPoints = tHead.children[0].appendChild(document.createElement("th"));
-            BonusPoints.textContent = 'Bonus Points';
+            BonusPoints.textContent = 'Points Bonus';
 
             var Points = tHead.children[0].appendChild(document.createElement("th"));
             Points.textContent = 'Points';
